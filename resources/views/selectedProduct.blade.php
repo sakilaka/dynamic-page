@@ -8,5 +8,8 @@
 </head>
 <body>
     <h1>{{$product -> name}}</h1>
+    <h2>{{$product -> price}}</h2>
+    <h3>{{$product -> description}}</h3>
+    <a href="{{ url('allProduct') }}"><button>Back</button></a>
 </body>
 </html>
